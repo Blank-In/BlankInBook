@@ -1,4 +1,4 @@
-#명령어
+# 명령어
 /책잠금 [플레이어 목록] (/책잠금 Blank_In Test1 Test2 ...)
 플레이어를 적지 않으면 본인을 잠금 목록에 추가함
 플레이어를 여럿 적을 때 본인을 적지 않으면 본인은 제외됨
@@ -14,7 +14,7 @@
 버전 확인
 
 
-#권한
+# 권한
 BlankInBook.op.*
 ㄴBlankInBook.blankinbook
 BlankInBook.user.*
@@ -23,7 +23,7 @@ BlankInBook.user.*
 ㄴBlankInBook.user.책다시쓰기
 
 
-#유의사항
+# 유의사항
 권한에 BlankInBook.blankinbook이 포함되어 있거나 OP라면 잠금되어 있는 책을 자유롭게 열람/잠금해제/다시쓰기 할 수 있음
 
 잠금에 포함되지 않은 자는 잠금된 책을 독서대에 올릴 수 없지만 타인이 올려놓은 책을 독서대에서 읽거나 가져갈 수는 있음
