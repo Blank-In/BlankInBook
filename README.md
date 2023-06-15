@@ -1,26 +1,30 @@
-# 명령어
-/책잠금 [플레이어 목록] (/책잠금 Blank_In Test1 Test2 ...)
+명령어
+===
+
+###/책잠금 [플레이어 목록] (/책잠금 Blank_In Test1 Test2 ...)
 플레이어를 적지 않으면 본인을 잠금 목록에 추가함
 플레이어를 여럿 적을 때 본인을 적지 않으면 본인은 제외됨
 목록에 적은 플레이어가 전부 존재하지 않는 플레이어라면 잠금 되지않음
 
-/책잠금해제
+###/책잠금해제
 들고있는 책에 권한이 있다면 잠금을 해제함
 
-/책다시쓰기
+###/책다시쓰기
 들고있는 책이 서명되어 있고 권한이 있다면 책과 깃펜으로 되돌림
 
-/blankinmusic
+###/blankinmusic
 버전 확인
 
 
-# 권한
+권한
+=
 BlankInBook.op.*
-ㄴBlankInBook.blankinbook
+- BlankInBook.blankinbook
+
 BlankInBook.user.*
-ㄴBlankInBook.user.책잠금
-ㄴBlankInBook.user.책잠금해제
-ㄴBlankInBook.user.책다시쓰기
+- BlankInBook.user.책잠금 
+- BlankInBook.user.책잠금해제
+- BlankInBook.user.책다시쓰기
 
 
 # 유의사항
