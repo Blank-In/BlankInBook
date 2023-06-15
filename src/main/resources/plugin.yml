@@ -1,0 +1,42 @@
+main: blankin.book.BlankInBook
+name: BlankInBook
+version: 1.1.20230613
+author: Blank-In
+website: https://blog.naver.com/blank-in
+prefix: BlankInBook
+api-version: 1.19
+commands:
+  blankinbook:
+    description: 플러그인의 정상작동을 확인함.
+    permission: BlankInBook.blankinbook
+    permission-message: 작동 테스트 명령어입니다.
+    usage: 플러그인 내부 문제 있음.
+  책잠금:
+    description: 들고 있는 책과 깃펜 혹은 쓰여진 책을 잠금을 설정합니다.
+    permission: BlankInBook.user.책잠금
+    permission-message: 유저 전용 명령어입니다.
+    usage: /<command> [플레이어 목록]
+  책잠금해제:
+    description: 들고 있는 책과 깃펜 혹은 쓰여진 책을 잠금을 해제합니다.
+    permission: BlankInBook.user.책잠금해제
+    permission-message: 유저 전용 명령어입니다.
+    usage: /<command>
+  책다시쓰기:
+    description: 이름이 쓰여진 책을 다시 수정할 수 있도록 책과 깃펜으로 변경합니다.
+    permission: BlankInBook.user.책다시쓰기
+    permission-message: 유저 전용 명령어입니다.
+    usage: /<command>
+
+permissions:
+  BlankInBook.op.*:
+    description: 관리자 전용 권한 모음
+    default: op
+    children:
+      BlankInBook.blankinbook: true
+  BlankInBook.user.*:
+    description: 유저 전용 권한 모음
+    children:
+      BlankInBook.user.책잠금: true
+      BlankInBook.user.책잠금해제: true
+      BlankInBook.user.책다시쓰기: true
+
