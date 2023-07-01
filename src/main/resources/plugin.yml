@@ -1,6 +1,6 @@
 main: blankin.book.BlankInBook
 name: BlankInBook
-version: 1.2.20230701
+version: 1.1.20230613
 author: Blank-In
 website: https://blog.naver.com/blank-in
 prefix: BlankInBook

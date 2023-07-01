@@ -14,7 +14,7 @@ import org.bukkit.NamespacedKey;
 public class Constants {
 
   public final static String PLUGIN_TITLE = BOLD.toString() + DARK_RED + "[" + DARK_GRAY + "BlankInBook" + DARK_RED + "] " + GRAY;
-  public final static String PLUGIN_VERSION = "1.2.20230701"; // 버저닝 MAJOR.업데이트-횟수.릴리즈-일자
+  public final static String PLUGIN_VERSION = "1.1.20230613"; // 버저닝 MAJOR.업데이트-횟수.릴리즈-일자
 
   public final static String GREEN_PREFIX = GRAY + "[" + YELLOW + " ! " + GRAY + "] " + GREEN;
   public final static String RED_PREFIX = GRAY + "[" + YELLOW + " ! " + GRAY + "] " + RED;
@@ -23,7 +23,7 @@ public class Constants {
 
   public final static String MASTER_PERMISSION = "BlankInBook.blankinbook";
 
-  public final static NamespacedKey LOCK_BOOK_KEY = NamespacedKey.minecraft("blankinbook:lockbook");
+  public final static NamespacedKey LOCK_BOOK_KEY = NamespacedKey.minecraft("blankinbook.lock_book");
   public final static String LOCK_BOOK_LORE = YELLOW_PREFIX + "잠금된 책";
 
 }
